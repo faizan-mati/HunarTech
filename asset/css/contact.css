@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact-hero{
+    margin-top: 90px; 
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: rgb(65, 124, 233);
+    background: linear-gradient(90deg, rgba(65, 124, 233, 1) 0%, rgba(48, 105, 211, 1) 35%, rgba(32, 87,192,1)100%);
+
+}
+.home{
+    text-decoration: none !important;
+    color: white;
+    padding-right: 20px;
+}
+.home:hover{
+    text-decoration: none !important;
+    color: rgb(196, 196, 196);
+}
+
+ /* -----------------contact hero section End-----------------  */
+ /* -----------------contact email section Start-----------------  */
+ .contact{
+    background-color: white;
+    box-shadow: rgba(172, 179, 185, 0.2) 0px 8px 24px;
+    border-radius: 30px 5px;
+    width: 100%;
+    padding: 50px 35px;
+ }
+ .contact:hover{
+    border: 1px dashed #349B52;
+ }
+    .hr{
+        border-bottom: 1px dashed black;
+        width: 190px ;
+    }
+    .fa-location-arrow {
+        font-size: 35px;
+        text-align: right;
+        color: rgb(65, 124, 233);
+        color: linear-gradient(90deg, rgba(65, 124, 233, 1) 0%, rgba(48, 105, 211, 1) 35%, rgba(32, 87,192,1)100%);
+    
+    }
+    .contact-section{
+        margin: 190px 0px;
+    }
+ /* -----------------contact email section End-----------------  */

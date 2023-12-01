@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* -------------navbar start ------------- */
+.navbar.scrolled{
+    background-color: #ffffff !important;
+    /* Change this to the desired background color */
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: rgba(172, 179, 185, 0.2) 0px 8px 24px;
+}
+
+nav ul li a:hover {
+    color: blue !important;
+}
+
+/* -------------navbar end ------------- */
+/* ------------- Hero Section Start------------- */
+.background {
+    background-color: #EFF1F6;
+    width: 60%;
+    height: 100vh;
+    border-radius: 0 0% 100% 0;
+}
+
+.Nunito{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.nunito {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.section_1 {
+    margin-top: -80vh !important;
+}
+
+.button {
+    background: rgb(65, 124, 233);
+    background: linear-gradient(90deg, rgba(65, 124, 233, 1) 0%, rgba(48, 105, 211, 1) 35%, rgba(32, 87, 192, 1) 100%);
+    padding: 18px 35px;
+    color: white;
+    text-decoration: none !important;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 40px 20px 40px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.button:hover {
+    background: rgb(32, 87, 192);
+    background: linear-gradient(90deg, rgba(32, 87, 192, 1) 0%, rgba(48, 105, 211, 1) 35%, rgba(65, 124, 233, 1) 100%);
+    color: white;
+
+}
+@media screen and (max-width: 767px) {
+    .Nunito {
+        font-size: 27px;
+        font-weight: 600;
+        /* Adjust the font size for smaller screens */
+    }
+
+   
+
+}
+@media screen and (min-width: 769px)  and (max-width: 1024px){
+    .Nunito {
+        font-size: 50px;
+        font-weight: 700;
+        /* Adjust the font size for smaller screens */
+    }
+
+}
+
+
+/* ------------- Hero Section End------------- */
+/* ------------- About Section Start------------- */
+.section_2 {
+    margin: 70px 0;
+}
+
+.data-h3 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none !important;
+    color: black;
+    transition: 0.5s;
+}
+
+.data-h3:hover {
+    color: rgb(65, 124, 233);
+
+}
+
+.box {
+    box-shadow: rgba(172, 179, 185, 0.2) 0px 8px 24px;
+    padding: 60px 30px;
+    border-radius: 30px 5px;
+    background-color: white;
+
+}
+
+.ai {
+    border: 1px dashed;
+    color: rgb(65, 124, 233);
+}
+
+.box:hover {
+    border: 1px dashed;
+    color: #349B52;
+}
+
+.fa-check {
+    background-color: rgb(65, 124, 233);
+    color: white;
+    padding: 4px;
+    font-size: 10px;
+    border-radius: 20px 30px 20px 0;
+}
+
+.nunito1 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Nunito ', sans-serif;
+}
+
+.nunito2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nunitopre {
+    font-family: 'Nunito ', sans-serif;
+    color: #666666;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* ------------- About Section End------------- */
+/* ------------- Counter Section Start------------- */
+.counter {
+    background-color: #F4F7FC;
+    /* text-align: center; */
+    padding: 8px;
+    padding-top: 150px;
+
+}
+
+.style-container {
+    border-left: 1px dashed #ffffff;
+    border-right: 1px dashed #ffffff;
+    padding: 80px 0;
+    border-radius: 10px 60px 10px 60px;
+    background: rgb(65, 124, 233);
+    background: linear-gradient(90deg, rgba(65, 124, 233, 1) 0%, rgba(48, 105, 211, 1) 35%, rgba(32, 87, 192, 1) 100%);
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(172, 179, 185, 0.2) 0px 8px 24px;
+    text-align: center;
+}
+
+.counter_number {
+    font-family: 'Nunito ', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.counter_test {
+    font-family: 'Nunito ', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    font-style: normal;
+}
+
+/* ------------- Counter Section End------------- */
+/* ------------- wide range Section Start------------- */
+.fa-spinner {
+    border: 1px dashed;
+    border-radius: 50%;
+    font-size: 10px;
+    padding: 2px;
+}
+
+.wide-range {
+    background-color: #F4F7FC;
+    border-radius: 0px 140px 0px 140px;
+    /* margin-top: 80px; */
+    padding: 100px 0px;
+    /* margin-right: 100px; */
+}
+
+
+.we-offer {
+    font-family: Nunito, sans-serif;
+    ;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.card-box {
+    padding-top: 80px;
+}
+
+/* ------------- wide range Section End------------- */
+/* ------------- Work Process Section Start------------- */
+.work-h4 {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.img-work-process {
+    width: 110px;
+    padding: 20px;
+    border-radius: 10px 60px 10px 10px;
+    color: white;
+    font-size: 60px;
+    /* border: 2px solid rgb(0, 68, 255) */
+    background: rgb(32, 87, 192);
+    background: linear-gradient(90deg, rgba(32, 87, 192, 1) 0%, rgba(48, 105, 211, 1) 35%, rgba(65, 124, 233, 1) 100%);
+    box-shadow: rgba(196, 196, 196, 0.2) 0px 8px 24px;
+
+}
+
+.work-process {
+    background: rgb(32, 87, 192);
+    background: linear-gradient(90deg, rgba(32, 87, 192, 1) 0%, rgba(48, 105, 211, 1) 35%, rgba(65, 124, 233, 1) 100%);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    margin-bottom: -10%;
+    margin-left: 56%;
+    z-index: -999px;
+    position: relative;
+    padding-top: 4px;
+}
+
+.work {
+    position: relative;
+    font-size: 20px;
+    padding-top: 90px;
+}
+
+.work::after {
+    content: '';
+    background-color: #E2EBFA;
+    width: 165px;
+    height: 10px;
+    position: absolute;
+    bottom: 0px;
+    /* Set a negative value to move it above the text */
+    left: 50%;
+    /* Adjust as needed */
+    transform: translateX(-50%);
+    /* Center horizontally */
+    z-index: -1;
+    /* Set a lower z-index to move it behind the text */
+    /* border-bottom: 2px solid black; */
+}
+
+.how-we-work {
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* ------------- Work Process Section End------------- */
+/* -----------------OOur Skill start----------------- */
+.skills {
+    margin-top: 4%;
+}
+
+.skills h3 {
+    color: #797878;
+    margin: 30px 0;
+    font-size: 30px;
+}
+
+.skills .skills-content .right .bars {
+    margin-bottom: 15px;
+}
+
+.skills .skills-content .right .info {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills .skills-content .right span {
+    font-weight: 700;
+    font-size: 18px
+}
+
+.skills .skills-content .right .line {
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.skills .skills-content .right .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(8, 74, 255);
+}
+
+.skills-content .right .html::before {
+    width: 88%;
+}
+
+.skills-content .right .css::before {
+    width: 95%;
+}
+
+.skills-content .right .js::before {
+    width: 70%;
+}
+
+.rightImage .image1 {
+    margin-top: 15%;
+    width: 450px;
+    height: 250px;
+    margin-left: 5%;
+    box-shadow: 0 8px 13px rgba(0, 0, 0, 0.4);
+}
+
+.rightImage .image2 {
+    position: relative;
+    left: 40%;
+    top: -60px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 8px 13px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (min-width: 530px) and (max-width: 629px) {
+    .rightImage .image2 {
+        left: 30%;
+        top: -70px;
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 430px) and (max-width: 529px) {
+    .rightImage .image1 {
+        width: 350px;
+        height: 200px;
+    }
+
+    .rightImage .image2 {
+        left: 30%;
+        top: -70px;
+        width: 250px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 230px) and (max-width: 429px) {
+    .rightImage .image1 {
+        width: 250px;
+        height: 200px;
+    }
+
+    .rightImage .image2 {
+        left: 30%;
+        top: -70px;
+        width: 190px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 230px) and (max-width: 575px) {
+    .skills .skills-content .right .line {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .skills .skills-content .right span {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* -----------------Our Skill End----------------- */
+/* -----------------Stay Update Start----------------- */
+.wide-range1 {
+    background-color: #F4F7FC;
+    border-radius: 0px 140px 0px 0px;
+    /* margin-top: 80px; */
+    padding: 100px 0px;
+    /* margin-right: 100px; */
+}
+
+.issu {
+    background-color: white;
+    width: 130px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: rgba(172, 179, 185, 0.2) 0px 8px 24px;
+    margin-top: -20px;
+    margin-left: 120px;
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.july {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.card-box1 {
+    border-radius: 50px 35px;
+    box-shadow: rgba(172, 179, 185, 0.2) 0px 8px 24px;
+    background-color: white;
+
+}
+
+.card-img-top {
+    border-radius: 50px 35px !important;
+    position: relative;
+    z-index: -1px;
+}
+
+.maps {
+    margin-bottom: -7px;
+}
+
+/* -----------------Stay Update End----------------- */
+/* -----------------Footer Start----------------- */
+.shape {
+    margin-top: -28rem;
+    /* background-color: #F4F7FC; */
+}
+
+.background2{
+    background-color: #EFF1F6;
+    width: 59%;
+    height:31rem;
+    border-radius: 0 0% 100% 0;
+}
+
+.footer-a {
+    text-decoration: none !important;
+    color: #666666;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.work-h3 {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #232323;
+}
+
+.email {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-top: 20px;
+    color: #666666;
+}
+
+.footer-3 {
+    background-color: #044DA0;
+    margin-top :12vh !important;
+    /* position: relative; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* width: 100%; */
+}
+
+/* -----------------Footer End----------------- */

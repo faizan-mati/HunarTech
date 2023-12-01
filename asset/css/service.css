@@ -1,0 +1,32 @@
+/* ------------- slider card start------------- */
+
+/* ------------- slider card end------------- */
+
+/* ------------- Get Ready start------------- */
+
+.getReady{
+    margin-top: 5%;
+    padding-top: 5%;
+    color: white;
+    background: linear-gradient(90deg, rgba(65, 124, 233, 1) 0%, rgba(48, 105, 211, 1) 35%, rgba(32, 87, 192, 1) 100%);
+}
+.getReady img{
+    width: 100%;
+    height: 100%;
+}
+.getReady h3{
+    margin: 15% 0 5% 0;
+    font-weight: bold;
+}
+.getReady p{
+    margin-bottom: 10%;
+}
+@media screen and (min-width: 300px) and (max-width: 991px) {
+    .getReady img{
+        width: 90%;
+        height: 90%;
+        margin-top: 10%;
+    }
+}
+
+/* ------------- Get Ready end------------- */
